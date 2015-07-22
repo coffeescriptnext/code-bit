@@ -1,0 +1,18 @@
+.global-menu {
+    background: white;
+    outline: none;
+    height: 25px;
+    vertical-align: middle;
+}
+
+.global-dropdown {
+    outline: none;
+    background: white;
+    color: black;
+    border: 0;
+    -webkit-appearance: none;
+    line-height: 100%;
+    font-size: 100%;
+    vertical-align: middle;
+    height: 25px;
+}

@@ -1,0 +1,12 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: rgb(32, 32, 32);
+    color: silver;
+    font-family: arial;
+}
+
+.container {
+    margin-top: 25px;
+    padding: 10px;
+}
