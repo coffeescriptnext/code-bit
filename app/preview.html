@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8" />
+    <title>Preview</title>
+    <style type="text/css" id="user-style"></style>
+</head>
+
+<body>
+    
+</body>
+
+<script>
+    var bits    = JSON.parse(localStorage.getItem("bits")),
+        preview = localStorage.getItem("preview"),
+        info    = bits.projects[preview],
+        html    = info.html,
+        css     = info.css,
+        js      = info.js;
+        
+        document.body.innerHTML = html;
+        document.getElementById("user-style").innerHTML = css;
+        var script = document.createElement("SCRIPT");
+        script.innerHTML = js;
+        document.head.appendChild(script);
+</script>
+
+</html>
