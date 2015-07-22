@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8" />
+    <title>Code Bit</title>
+    <link rel="stylesheet" type="text/css" href="ext/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="ext/css/menu.css" />
+    <link rel="stylesheet" type="text/css" href="ext/css/editor.css" />
+    <script src="ext/js/jquery.js"></script>
+    <script src="ext/js/jquery.htmlClean.js"></script>
+    <script src="ext/js/menu.js"></script>
+    <script src="ext/js/editor.js"></script>
+</head>
+
+<body>
+    <div class="global-menu">
+        <select class="global-dropdown file-menu">
+            <option class="default-menu" disabled selected>File</option>
+            <option value="save-bit">Save Bit</option>
+            <option value="open-bit">Open Bit</option>
+        </select>
+
+        <select class="global-dropdown edit-menu">
+            <option class="default-menu" disabled selected>Edit</option>
+        </select>
+
+    </div>
+
+    <div class="container">
+        <span hidden class="open-bit"></span>
+        <div class="editor-titles">
+            <div class="editor-title html-title">HTML</div>
+            <div class="editor-title css-title">CSS</div>
+            <div class="editor-title js-title">JavaScript</div>
+        </div>
+        <br/>
+        <div class="editor">
+            <textarea class="code-editor html-editor"></textarea>
+            <textarea class="code-editor css-editor"></textarea>
+            <textarea class="code-editor js-editor"></textarea>
+        </div>
+        <button onClick="editor.preview()">Preview</button>
+    </div>
+</body>
+</html>
