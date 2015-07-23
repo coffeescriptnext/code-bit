@@ -1,5 +1,5 @@
 .global-menu {
-    background: silver;
+    background: rgb(53,48,48);
     outline: none;
     height: 25px;
     vertical-align: middle;
@@ -7,8 +7,8 @@
 
 .global-dropdown {
     outline: none;
-    background: silver;
-    color: black;
+    background: rgb(53,48,48);
+    color: white;
     border: 0;
     -webkit-appearance: none;
     line-height: 100%;

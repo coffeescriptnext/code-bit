@@ -1,9 +1,23 @@
 html, body {
     margin: 0;
     padding: 0;
-    background: rgb(32, 32, 32);
+    background: rgb(44,40,39);
     color: silver;
     font-family: arial;
+}
+
+button {
+    background: rgb(10, 10, 10);
+    color: gray;
+    border: 0;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 10px;
+}
+
+button:hover {
+    background: #757ad8;
+    color: white;
 }
 
 .container {
