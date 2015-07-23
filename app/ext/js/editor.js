@@ -37,6 +37,14 @@ var editor =
         preview: function() {
             localStorage.setItem("preview", $(".open-bit").html());
             window.open("preview.html", "_blank");
+        },
+
+        tidy: function(editor) {
+            var code;
+            if (editor == 1) {
+                code = $(".html-editor").val();
+                code = $.htmlClean(code, {format: true});
+            }
         }
     }
 

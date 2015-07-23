@@ -1,5 +1,5 @@
 .global-menu {
-    background: white;
+    background: silver;
     outline: none;
     height: 25px;
     vertical-align: middle;
@@ -7,7 +7,7 @@
 
 .global-dropdown {
     outline: none;
-    background: white;
+    background: silver;
     color: black;
     border: 0;
     -webkit-appearance: none;
@@ -15,4 +15,8 @@
     font-size: 100%;
     vertical-align: middle;
     height: 25px;
+}
+
+.file-menu {
+    width: 35px;
 }
