@@ -16,13 +16,27 @@
 <body>
     <div class="global-menu">
         <select class="global-dropdown file-menu">
-            <option class="default-menu" disabled selected>File</option>
-            <option value="save-bit">Save Bit</option>
-            <option value="open-bit">Open Bit</option>
+            <option class="default-menu" disabled selected>
+                File
+            </option>
+            <option value="save-bit">
+                Save Bit
+            </option>
+            <option value="open-bit">
+                Open Bit
+            </option>
+            <option value="preview">
+                Preview
+            </option>
         </select>
 
         <select class="global-dropdown edit-menu">
-            <option class="default-menu" disabled selected>Edit</option>
+            <option class="default-menu" disabled selected>
+                Edit
+            </option>
+            <option value="tidy">
+                Tidy Code
+            </option>
         </select>
 
     </div>
@@ -40,8 +54,6 @@
             <textarea class="code-editor css-editor"></textarea>
             <textarea class="code-editor js-editor"></textarea>
         </div>
-        <button onClick="editor.preview()">Preview</button>
-        <button onClick="window.open('http://www.dirtymarkup.com/', '_blank')">Tidy Up Code</button>
     </div>
 </body>
 </html>

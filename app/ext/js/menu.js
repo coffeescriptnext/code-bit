@@ -14,6 +14,14 @@ $(document).ready(function() {
             var name = prompt("Open");
             $(".open-bit").html(name);
             editor.load();
+        } else if (this.value == "preview") {
+            editor.preview();
+        }
+    });
+    
+    $(".edit-menu").change(function() {
+        if (this.value == "tidy") {
+            window.open("http://www.dirtymarkup.com/", "_blank");
         }
     });
 
